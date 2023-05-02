@@ -1,0 +1,274 @@
+/*Stile per il body*/
+body
+{
+  font-family: 'DynaPuff',fira sans;
+  margin: 0px 0px ;
+}
+
+
+/*Stile per la navbar*/
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 100px;
+    
+    
+  }
+  
+  /*Stile per il logo della navabar*/
+  .navbar-logo img {
+    display: flex;
+    margin-left: 30px;
+    width: 160px;
+    height: auto;
+  }
+  
+
+  /*Stili per i link della navbaar*/
+  .navbar-links {
+    
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .navbar-links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+   padding: 7px 7px;
+    display: flex;
+  text-align: center;
+  align-items: center;
+   
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+
+  /*Stile per le immagini nei link della navbar*/
+  .navbar-links a img {
+    
+    width: 40px;
+    height: auto;
+    margin-right: 5px;
+  }
+
+
+  /* Stili per il pulsante del telefono nella navbar */
+  #telephone
+  {
+    border-radius: 50px;
+    border: 5px solid #fb9a5d;
+    padding: 10px;
+  }
+
+
+  /*Quando si passa sopra i link della navarbar con il mouse cambiano colore*/
+  .navbar-links a:hover {
+    color: orangered ;
+  }
+  
+  .navbar-logo:hover {
+    transform: scale(1.05);
+  }
+
+
+ 
+  /*Stile per l'header*/
+  header
+{display: flex;
+    background-image: url("./img/food.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    
+}
+
+/*Overlay sull'header*/
+#overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    z-index: 1;
+  }
+
+   /*Search recipe è quella che contiene il submit, l'option e il text input*/
+
+   #search_recipe {
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    
+  }
+
+
+  /*Stile per il testo che compare prima del text input*/
+  #search {
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-right: 5px;
+    font-family: 'DynaPuff', fira sans;
+  }
+
+
+  /*Pulsante di invio*/
+  input[type="submit"] {
+    background-color: lightsalmon;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'DynaPuff', fira sans;
+    height: 35px;
+    margin-left: 5px;
+  }
+
+
+  /*Stile per quando inseriamo l'input di testo */
+  input[type='text'] {
+    background-color: lightsalmon;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'DynaPuff', fira sans;
+  }
+
+
+  /*Opzione di scelta: food o drink*/
+  #search_recipe select {
+    background-color: lightsalmon;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'DynaPuff', fira sans;
+    margin-left: 5px;
+    }
+ 
+
+  /*Stile per il footer*/
+  footer {
+    display: flex;
+    background-color: #761e1e;
+    font-size: 14px;
+    font-weight: lighter;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 50px;
+    position:relative;
+    width: 100%;
+  }
+
+
+/*Stile per le ricette italiane preferite*/
+.opaco {
+  background-color: rgba(255, 254, 254, 0.5);
+  display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+   position: relative;
+  
+   
+
+}
+
+
+.opaco div{
+  width: 500px;
+  border-radius: 10px;
+  background-color: rgb(248, 244, 241);
+  text-align: center;
+  
+  
+}
+
+
+
+/*Stile del titolo: My favourite italian...*/
+.opaco h1
+{
+
+  font-size: 30px;
+  background: linear-gradient(#e78122,#ad1a1a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  justify-content: center;
+
+ 
+  
+}
+
+
+/*Stile per la scritta che compare quando non viene trovata nessuna ricetta*/
+#er
+{
+  color:white;
+  font-size: 25px;
+ position:relative;
+  z-index: 5;
+   text-align: center;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.errore
+{
+top:-150px;
+  left: 45%;
+  position: absolute;
+  
+}
+
+.opacity
+{
+  display: none;
+  background-color: aqua;
+}
+
+
+#menu {
+  display: none;
+  cursor: pointer;
+  align-self: flex-end; /* Allinea il menu ad hamburger a destra */
+  margin-right: 20px;
+  
+}
+
+#menu span {
+  display: block;
+  width: 30px;
+  height: 5px;
+  margin-bottom: 5px;
+  background-color: #333;
+}
+

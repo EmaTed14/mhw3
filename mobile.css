@@ -1,0 +1,165 @@
+@media screen and (max-width: 1024px){
+/* Stili per la navbar */
+.navbar {
+flex-direction: column;
+height: auto;
+}
+
+.navbar-logo {
+margin: 20px 0;
+}
+
+
+
+/* Stili per l'header e l'overlay */
+header,
+#overlay {
+height: 300px;
+margin-bottom: 10px;
+}
+
+/* Stili per il footer */
+footer {
+display: flex;
+background-color: #761e1e;
+font-size: 14px;
+font-weight: lighter;
+color: white;
+align-items: center;
+justify-content: center;
+text-align: center;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+height: 50px;
+position: relative;
+width: 100%;
+}
+
+/* Stili per il form di ricerca */
+#search_recipe {
+width: 90%;
+height: auto;
+flex-direction: column;
+}
+
+#search {
+font-size: 20px;
+margin-right: 0;
+margin-bottom: 10px;
+}
+
+input[type="submit"] {
+width: 100px;
+margin-top: 5px;
+}
+
+input[type="text"] {
+width: 200px;
+}
+
+#search_recipe select {
+width: 150px;
+margin-top: 5px;
+}
+
+.opaco {
+display: flex;
+flex-direction: column;
+margin: 20px 20px 20px 20px;
+
+}
+
+.opaco div {
+width: 90%;
+justify-content: center;
+padding: 20px;
+
+}
+
+
+.ingredient {
+font-size: 12px;
+}
+
+.recipe_details {
+width: 100%;
+padding: 5px 10px 5px 10px;
+}
+
+.title_recipe_open {
+font-size: 25px;
+background: linear-gradient(#e78122, #530808);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: center;
+margin-top: -5px;
+}
+
+
+#er {
+color: white;
+font-size: 16px;
+text-align: center;
+justify-content: center;
+
+}
+
+.errore {
+margin-top: 200px;
+
+}
+
+
+
+#menu {
+  display: block;
+  margin-top: -50px;
+  margin-bottom: 20px;
+  z-index: 60;
+ 
+ 
+  
+ 
+}
+
+
+
+.navbar-links {
+  
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  
+  }
+  
+  .link {
+    color: #333;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+   padding: 7px 7px;
+    display: flex;
+  text-align: center;
+  align-items: center;
+   
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    
+  }
+
+  .back {
+    background-color: #e78122 ;
+  }
+
+  .immggg {
+display: flex;
+flex-direction: column;
+    height: 20px;
+   margin-right: 5px;
+   }
+  
+   
+}
+

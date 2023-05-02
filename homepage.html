@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Metadati della pagina web -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Collegamento ai file CSS -->
+  <link rel="stylesheet" href="generic.css">
+  <link rel="stylesheet" href="mobile.css">
+  <link rel="stylesheet" href="ricette.css">
+  
+
+  <!-- Collegamento ai font di Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DynaPuff&family=Fira+Sans:ital,wght@1,300&display=swap"
+    rel="stylesheet">
+
+  <!-- Collegamento ai file JavaScript -->
+  <script src="food.js" defer="true"></script>
+  <script src="drink.js" defer="true"></script>
+
+  <!-- Titolo della pagina web -->
+  <title>EMI'S COOKBOOK</title>
+</head>
+
+<body>
+
+  <!-- Barra di navigazione -->
+  <div>
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <a href="#"><img src="./img/logo.png" alt=""></a>
+      </div>
+
+      <div id="menu">
+        
+        <span></span>
+        <span></span>
+        <span></span>
+      
+      </div>
+
+        <div class="navbar-links">
+          <a href="#"><img src="./img/home.png" alt="">Home</a>
+          <a href="#"><img src="./img/ricetta.png" alt="">Recipes</a>
+          <a href="#"><img src="./img/categorie.png" alt="">Categories</a>
+          <a href="#"><img src="./img/cuore.png" alt="">Favourite Recipes</a>
+          <a href="#"><img src="./img/contact.png" alt="">Contact</a>
+          <a href="" id="telephone">+39 123456789</a>
+        </div>
+        
+
+        
+     
+
+    </nav>
+  </div>
+
+
+  <!-- Intestazione della pagina web con il form di ricerca -->
+  <header >
+    <div id="overlay"></div>
+    <form name="search_recipe" id="search_recipe">
+
+      <h1 id="search">Ingredient or recipe name:</h1>
+
+      <!-- Campo di input per la ricerca -->
+      <label> <input type='text' name='content' id='content' placeholder="potato, pizza, gin "> </label>
+
+      <!-- Menù a tendina per selezionare il tipo di ricerca (cibo o bevande) -->
+      <select name="tipo"  id="tipo">
+        <option value="Food">Food</option>
+        <option value="Drinks">Drinks</option>
+      </select>
+
+      <!-- Pulsante di invio del form -->
+      <label> <input class="submit" type='submit' value="Submit"></label>
+
+    </form>
+    
+  </header>
+
+<div id="er"></div>
+
+  <!-- Contenuto principale della pagina web -->
+  
+
+  <div id="album-view">
+
+  </div>
+ 
+
+
+  <!-- Contenitore per le ricette e le bevande preferite-->
+  <div class="opaco">
+    <div id="food" ></div>
+    <div id="drink" ></div>
+    
+
+    
+  </div>
+
+  <!-- Footer della pagina web -->
+  <footer> © 2023 Emanuela Tedesco. All rights reserved. </footer>
+
+</body>
+
+</html>

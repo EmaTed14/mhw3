@@ -1,0 +1,212 @@
+ /*cibo preferito */
+ 
+ #food
+ {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  box-shadow: 2px 2px 10px #7c7c7c;
+  background-color: #f8d8be;
+  
+  
+  }
+
+  
+ /*drink preferito*/
+
+
+ #drink
+ {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  box-shadow: 2px 2px 10px  #7c7c7c;
+  background-color: #f8d8be;
+ 
+ }
+
+/*contenitore che ha l'immagine e la ricetta*/
+  .album {
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #888888;
+    
+    
+   
+  }
+  
+  .titles {
+  
+    font-size: 24px;
+    color: #e78122;
+  }
+  
+  .images {
+    text-align: center;
+    width: 250px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .title_ingredients_instruction {
+    color: rgb(238, 120, 24);
+    font-size: 20px;
+    margin-top: 25px;
+    text-align: left;
+  }
+  
+ 
+  .ingredient {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  .ingredient-image {
+    width: 60px;
+    height: auto;
+    margin-left:5px;
+    
+   
+  }
+  
+  .ingredient-name {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .ingredient-measure {
+    margin-left: auto;
+    font-size: 14px;
+  }
+  
+  .instruction {
+    margin-top: 10px;
+    white-space: pre-line;
+    font-size: 18px;
+    text-align: left;
+  }
+
+
+  .opacity
+  {
+    display: none;
+  }
+
+
+
+
+
+  #album-view {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ 
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+
+  /*nome ricetta nel box con tutte le ricette*/
+ .title_recipe
+ { font-size: 25px;
+  background: linear-gradient(#e78122,#ad1a1a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+ margin-top: -5px;
+ }
+
+
+
+/*contenitore ddelle ricette che spuntano quando cerco*/
+ .single_recipe
+ {
+  
+  
+  width: 250px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fcd4a6;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px #888888;
+  
+  
+ }
+
+
+/*stile per la x che chiude le immagini delle ricette*/
+.close-button {
+  position: absolute;
+  
+  right: -20px;
+  font-size: 50px;
+  font-weight: bold;
+  color: orangered;
+  cursor: pointer;
+  
+}
+
+
+/*stile pulsante back quando si apre la ricetta con i procedimenti*/
+
+.back-button
+{
+  
+    background-color: lightsalmon;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'DynaPuff', fira sans;
+    height: 40px;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+
+.back-button:hover
+{
+color: brown;
+background-color: #FFAD7A;
+border: rgb(255, 255, 255) ;
+}
+
+
+
+.recipe_details
+{
+width: 70%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+padding: 10px 20px 10px 20px;
+  background-color: #faddbd;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px #888888;
+  
+  }
+
+
+  .title_recipe_open
+  {
+    font-size: 25px;
+  background: linear-gradient(#e78122,#530808);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+ margin-top: -5px;
+  }
+
+
+
+  
